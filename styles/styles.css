@@ -1,0 +1,18 @@
+:root {
+    --dark-color: #1f2937;
+    --font-used: Roboto;
+    --font-color: #f9faf8;
+    --button-color: #3882f6;
+    --grey-color: #e5e7eb;
+}
+
+*,
+html {
+    margin: 0;
+    padding: 0'
+
+}
+
+nav {
+    background-color: var(--dark-color);
+}
