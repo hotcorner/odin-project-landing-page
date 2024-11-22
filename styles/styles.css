@@ -1,6 +1,6 @@
 :root {
     --dark-color: #1f2937;
-    --font-used: Roboto;
+    --font-used: 'Roboto';
     --font-color: #f9faf8;
     --button-color: #3882f6;
     --grey-color: #e5e7eb;
@@ -9,10 +9,34 @@
 *,
 html {
     margin: 0;
-    padding: 0'
-
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
     background-color: var(--dark-color);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex: 1 0 450px;
+    justify-content: center;
+    gap: 10px;
+    max-width: 960px;
+}
+
+nav ul li {}
+
+nav ul li a {
+    color: var(--font-color);
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.logo {
+    margin-right: auto;
 }
