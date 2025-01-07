@@ -133,3 +133,27 @@ header img {
     color: var(--dark-color);
     line-height: 1.25;
 }
+
+.quote-content {
+    background-color: var(--grey-color);
+}
+
+.quote-content div {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.quote-copy {
+    font-size: 36px;
+    line-height: 1.25;
+    font-weight: 100;
+    font-style: italic;
+    padding: 6rem 16rem 1rem;
+    text-align: justify;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+    padding: 0 16rem 6rem;
+}
