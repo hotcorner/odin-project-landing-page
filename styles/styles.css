@@ -93,6 +93,7 @@ header button {
     background-color: var(--button-color);
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 header img {
@@ -196,6 +197,7 @@ header img {
     color: var(--font-color);
     padding: 10px 30px;
     font-size: 1.25rem;
+    cursor: pointer;
 }
 
 footer {
